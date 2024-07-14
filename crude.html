@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form action="" onsubmit="sub()">
+                    <div>
+                        <label for="name"><i class="fa-solid fa-user"></i>Name</label>
+                        <input type="text" name="" placeholder="Developed By : NAMDEO DHAKANE" id="name">
+                    </div>
+                    <div>
+                        <label for="pass"><i class="fa-solid fa-lock"></i>Pass</label>
+                        <input type="text" name="" id="pass">
+                    </div>
+                    <div>
+                        <label for="number"><i class="fa-solid fa-phone-volume"></i>Number</label>
+                        <input type="text" name="" id="number">
+                    </div>
+                    <div id="one">
+                        <input type="submit" class="sub" name="" id="" value="submit">
+                        <input type="reset" class="res" name="" id="">
+                    </div>
+                </form>
+
+            </td>
+        </tr>
+    </table>
+    <td>
+        <table id="userlist" style=" text-align: center;">
+            <thead class="list">
+                <tr>
+                    <th>Name</th>
+                    <th>Pass</th>
+                    <th>Number</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </td>
+    <script src="./script.js"></script>
+</body>
+
+</html>
